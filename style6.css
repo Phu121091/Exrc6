@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    padding:5px 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items:center;
+  }
+  .logo{
+      flex: 1;
+      padding: 7.5px 10px 7.5px 0;
+  }
+.navr{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+.item{
+    padding:9px 15px;
+    margin-right: 10px;
+}
+.button{
+    background-color: royalblue;
+}
+.button2{
+    border: 1px royalblue solid;
+}
+a{
+    text-decoration: none;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,rgb(186, 186, 231),rgb(99, 99, 231),red);
+    height: 800px;
+    }
+ #welcome-section h1{
+     height:60px;
+     font-size: 60px;
+ }
+ #welcome-section p{
+     height: 30px;
+     font-size: 30px;
+     color: black;
+     font-style: italic;
+     margin-top: 20px;
+ }
+ #projects{
+     background:linear-gradient(to right,rgb(118, 220, 238),rgb(90, 90, 233));
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .project-menu{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 20px;
+     justify-content: space-between;
+ }
+ .project-menu a{
+     width: 30%;
+     min-width: 400px;
+     background-color: black;
+     flex:1;
+     margin: 20px;
+     border-radius: 0 0 10px 10px
+
+ }
+ .project-image {
+    width: 100%;
+    object-fit: cover;
+}
+#projects h1{
+    margin: 0 auto;
+    width: 55%;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    border-bottom: 0.2rem solid #fff;
+}
+.project-title{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.0rem 0.5rem;
+    }
+.btn{
+    display: flex;
+    
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+#contact{
+    height: 500px;
+    background:linear-gradient(to bottom,white,rgb(82, 82, 226),red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-menu{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.link{
+    width: 20%;
+    text-shadow: 5px 5px rgb(46, 44, 44);
+    text-align: center;
+}
+#contact h1{
+    height:60px;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.end{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    }
+.end p{
+    font-size: medium;
+}
+.link:hover{
+    padding-top: 10px;
+}
+.project:hover>.project-title span{color:orange;}
